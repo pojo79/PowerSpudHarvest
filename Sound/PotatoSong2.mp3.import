@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/PotatoSong2.mp3-24e16565ebb57bc73ce164ace71c6c09.mp3str"
+
+[deps]
+
+source_file="res://Sound/PotatoSong2.mp3"
+dest_files=[ "res://.import/PotatoSong2.mp3-24e16565ebb57bc73ce164ace71c6c09.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

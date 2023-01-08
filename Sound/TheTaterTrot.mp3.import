@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/TheTaterTrot.mp3-9f856ea3189785a723516ec28fa0c41f.mp3str"
+
+[deps]
+
+source_file="res://Sound/TheTaterTrot.mp3"
+dest_files=[ "res://.import/TheTaterTrot.mp3-9f856ea3189785a723516ec28fa0c41f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

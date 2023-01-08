@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/FarmingSong.mp3-c0475eba361781b44b749c27f4ba2eda.mp3str"
+
+[deps]
+
+source_file="res://Sound/FarmingSong.mp3"
+dest_files=[ "res://.import/FarmingSong.mp3-c0475eba361781b44b749c27f4ba2eda.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

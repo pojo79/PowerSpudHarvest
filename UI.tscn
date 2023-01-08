@@ -1,0 +1,77 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://Art/UI/9patch.png" type="Texture" id=1]
+[ext_resource path="res://farmer.png" type="Texture" id=2]
+[ext_resource path="res://Quick.tres" type="Theme" id=3]
+[ext_resource path="res://UI.gd" type="Script" id=4]
+
+[sub_resource type="Theme" id=1]
+
+[node name="UI" type="Control"]
+anchor_right = 1.0
+margin_bottom = 64.0
+theme = SubResource( 1 )
+script = ExtResource( 4 )
+
+[node name="NinePatchRect" type="NinePatchRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 1 )
+patch_margin_left = 5
+patch_margin_top = 5
+patch_margin_right = 5
+patch_margin_bottom = 5
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -128.0
+margin_top = -32.0
+margin_right = 128.0
+margin_bottom = 32.0
+
+[node name="Container" type="Control" parent="."]
+anchor_top = 0.5
+anchor_bottom = 0.5
+margin_left = 8.0
+margin_top = -32.0
+margin_right = 72.0
+margin_bottom = 32.0
+
+[node name="Icon" type="TextureRect" parent="Container"]
+anchor_top = 0.5
+anchor_bottom = 0.5
+margin_top = -8.0
+margin_right = 16.0
+margin_bottom = 8.0
+texture = ExtResource( 2 )
+
+[node name="Live_Label" type="Label" parent="Container"]
+modulate = Color( 0.235294, 0.192157, 0.270588, 1 )
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -48.0
+margin_top = -8.0
+margin_right = -6.0
+margin_bottom = 9.0
+theme = ExtResource( 3 )
+text = "X 3"
+
+[node name="Score_Label" type="Label" parent="."]
+modulate = Color( 0.235294, 0.192157, 0.270588, 1 )
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -48.0
+margin_top = -8.0
+margin_right = 51.0
+margin_bottom = 9.0
+theme = ExtResource( 3 )
+text = "Score : 0 "
+align = 1
+valign = 1
